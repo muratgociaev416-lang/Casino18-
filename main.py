@@ -28,7 +28,7 @@ LEVELS = {
 
 def main_menu():
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="🎰 Играть (50 монет)", callback_data="play")],
+        [InlineKeyboardButton(text="🎰 Играть (50)", callback_data="play")],
         [InlineKeyboardButton(text="👤 Профиль", callback_data="profile")],
         [InlineKeyboardButton(text="🔄 Новая девушка", callback_data="reset")]
     ])
